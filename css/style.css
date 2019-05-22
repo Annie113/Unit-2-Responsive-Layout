@@ -1,0 +1,167 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #222;
+  background: #f7f5f0;
+}
+
+/* Fonts and Links */
+body, a, .nav .name, p.tag.location {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  letter-spacing: 0.085em;
+  line-height: 1.8em;
+  font-size: 15px;
+}
+
+h1, h2, h3 {
+  font-family: 'ZCOOL XiaoWei', serif;
+  letter-spacing: 0.05em;
+  line-height: 2em;
+}
+
+a, .nav .name {
+  text-decoration: none;
+  color: #3F5583;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.10em;
+}
+
+/* HEADER */
+
+.main-nav {
+  width: 100%;
+  background: transparent;
+  min-height: 30px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+  transition: all .1s;
+}
+
+.nav a:hover, a:hover {
+  color: #fff;
+
+}
+
+header.home-banner, header.about-me-banner, header.portfolio-banner  {
+  text-align: center;
+  background-size: cover!important;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  padding-top: 69px;
+}
+
+/* MAIN */
+
+.textbox {
+  background-color: #DCE5EC;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background: #27283B;
+  height: 100px;
+  padding-top: 20px;
+}
+
+footer {
+  top: -8px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+img.socials {
+  display: inline-block;
+  margin-left: 5px;
+  width: 30px;
+  opacity: .9;
+}
+.socials:hover {
+  opacity: .4;
+}
+.copyright {
+  height: 10px;
+  padding-top: 5px;
+  color: white;
+}
+.copyright p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* RESPONSIVES */
+@media screen and (max-width: 768px) {
+  .nav .name {
+    display: none;
+ }
+}
+
+@media screen and (min-width: 720px) {
+
+  .flex {
+      display: flex;
+      max-width: 1100px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+  main {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 25px;
+  }
+
+}
