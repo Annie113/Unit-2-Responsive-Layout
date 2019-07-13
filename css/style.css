@@ -63,7 +63,7 @@ ul.nav {
   margin: 0;
   list-style-type: none;
   position: relative;
-  left: 16px; 
+  left: 16px;
 }
 
 .nav li {
@@ -182,7 +182,7 @@ img.me {
   }
   .column_wrapper {
     max-width: 1120px;
-    width: 90%;
+    width: 92%;
     border-radius: 40px;
   }
   .name, .nav li {
@@ -206,6 +206,9 @@ img.me {
 @media screen and (max-width: 768px) {
   ul#header-nav.nav {
     margin: 0px 20px 15px;
+  }
+  #portfolio {
+    width: 100%;
   }
   img.me {
     margin-right: 0px;
