@@ -37,7 +37,7 @@ a {
   font-size: 0.8em;
   letter-spacing: 0.08em;
   font-family: 'Open Sans', sans-serif;
-  color: #1A6283;
+  color: #8BD0F0;
 }
 
 body {
@@ -77,12 +77,13 @@ body {
 header {
   width: 100%;
   margin-top: -15px;
-  background-color: #88D0F2;
+  background-color: #144055;
   padding-bottom: 10px;
 }
 
 .name {
   width: 70%;
+  color: #fff;
 }
 
 ul.nav {
@@ -141,6 +142,41 @@ img.me {
   width: 292px;
 }
 
+.text-box {
+  float: left;
+}
+
+/* --- SKILSS --- */
+
+#skills {
+  background-color: #144055;
+  width: 100%;
+  border-radius: 0;
+  text-align: center;
+}
+
+.icon-box {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.icon-box p {
+  padding: 10px 15px;
+  color: #8BD0F0;
+}
+
+.icon {
+  width: 45px;
+}
+
+.skill_wrapper, #skills h2, #skills h3 {
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
 /* --- FOOTER --- */
 
 .contact h2 {
@@ -166,12 +202,13 @@ img.me {
   font-size: 1em;
 }
 
-.right, .footer-nav {
+.right {
   float: right;
 }
 
 .back-to-top {
   padding: 18px 0px;
+  color: #144055;
 }
 
 .footer-nav {
@@ -189,12 +226,6 @@ img.me {
 
   .wrapper, .bottom-footer  {
     width: 90%;
-  }
-
-  .column_wrapper {
-    max-width: 1120px;
-    width: 92%;
-    border-radius: 40px;
   }
 
   .nav li {
@@ -224,8 +255,10 @@ img.me {
     padding-left: 10px;
   }
 
-  #portfolio {
-    width: 100%;
+  .column_wrapper {
+    max-width: 1120px;
+    width: 90%;
+    border-radius: 40px;
   }
 
   img.me {
@@ -234,10 +267,6 @@ img.me {
 
   .column {
    width: 50%;
-  }
-
-  .picture {
-    width: 328px;
   }
 
   .bottom-name {
@@ -250,6 +279,14 @@ img.me {
 
   .footer-nav, .footer-nav ul {
     display: inline-block;
+    float: right;
+  }
+
+  .footer-nav a {
+    color: #144055;
+  }
+
+  footer .nav li {
     margin: 0px;
   }
 }
@@ -272,8 +309,11 @@ img.me {
     left: 1.5%;
   }
 
-  .nav li {
+  header nav {
     float: right;
+  }
+
+  .nav li {
     padding: 20px;
     margin: 30px 0px;
   }
@@ -282,7 +322,16 @@ img.me {
     padding: 0px;
   }
 
+  .picture {
+    width: 328px;
+  }
+
   .column {
     width: 33.333%;
   }
+
+  #skills .column {
+    width: 25%;
+  }
+
 }
